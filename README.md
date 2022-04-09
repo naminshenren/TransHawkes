@@ -1,15 +1,10 @@
-DeepHawkes
+TransHawkes
 ===================================
-This repository is an implementation of our proposed DeepHawkes model in the following paper:
- 
-    Qi Cao, Huawei Shen, Keting Cen, Wentao Ouyang, Xueqi Cheng. 2017. DeepHawkes: Bridging the Gap between 
-    Prediction and Understanding of Information Cascades. In Proceedings of CIKM'17, Singapore., November 
-    6-10, 2017, 11 pages.
- 
-For more details, you can download this paper from ACM DIGITAL LIBRARY.
-The following url is the corresponding download link:
-https://dl.acm.org/citation.cfm?id=3132973&CFID=1005695721&CFTOKEN=57128415
- 
+TransHwakes: Prediction of Social Media Content Popularity Based on Transfomer Integrated Hawkes Process
+It is an algorithm for measuring the influence of social media advertisers' advertising posts
+
+# Framework
+![image](https://github.com/naminshenren/UCGGAT/blob/master/pre_trained/cora/ucggat.PNG)
 
 DataSet
 ----------------------------------- 
@@ -31,7 +26,7 @@ Downlowd link: https://pan.baidu.com/s/1c2rnvJq
 password: ijp6
 
                                                                                                                                                                
-Steps to run DeepHawkes
+Steps to run TransHawkes
 ----------------------------------- 
 
 1.split the data to train set, validation set and test set.
@@ -48,9 +43,24 @@ command:
     python preprocess.py
     #you can configure parameters and filepath in the file of "config.py"
  
-3.train DeepHawkes
+3.train TransHawkes
 command:
 
     cd deep_learning
     python run_sparse.py learning_rate learning_rate_for_embeddings l2 dropout
     #exsamples  python -u run_sparse.py 0.005 0.0005 0.05 0.8
+    
+## Dependencies
+
+The script has been tested running under Python 3.5.2, with the following packages installed (along with their dependencies):
+
+- `numpy==1.14.1`
+- `scipy==1.0.0`
+- `networkx==2.1`
+- `tensorflow-gpu==1.6.0`
+
+In addition, CUDA 9.0 and cuDNN 7 have been used.
+
+## Acknowledge
+This work was supported by the National Key R&D Program of China under Grant No. 2020AAA0103804 and partially supported by grants from the National Natural Science Foundation of China (No.72004021). This work belongs to the University of science and technology of China.
+
