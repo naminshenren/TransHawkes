@@ -4,7 +4,7 @@ TransHwakes: Prediction of Social Media Content Popularity Based on Transfomer I
 It is an algorithm for measuring the influence of social media advertisers' advertising posts
 
 # Framework
-![image](https://github.com/naminshenren/UCGGAT/blob/master/pre_trained/cora/ucggat.PNG)
+![image](https://github.com/naminshenren/TransHawkes/blob/master/transHAWKES.PNG)
 
 DataSet
 ----------------------------------- 
