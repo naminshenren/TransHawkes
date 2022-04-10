@@ -50,6 +50,10 @@ command:
     python run_sparse.py learning_rate learning_rate_for_embeddings l2 dropout
     #exsamples  python -u run_sparse.py 0.005 0.0005 0.05 0.8
     
+The pre trained model can be obtained from the following link:
+URL: https://pan.baidu.com/s/1yFRhs-wMPtm9LzEIsEalVQ
+Password: q5A5
+    
 ## Dependencies
 
 The script has been tested running under Python 3.5.2, with the following packages installed (along with their dependencies):
